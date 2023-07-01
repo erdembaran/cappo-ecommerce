@@ -42,7 +42,9 @@ function ProductList() {
         </p>
         <p
           onClick={() => handleCategoryClick("women's clothing")}
-          className={category === "women's clothing" ? "selected" : ""}
+          className={`${
+            category === "women's clothing" ? "selected " : ""
+          } womenCategory`}
         >
           Women
         </p>
