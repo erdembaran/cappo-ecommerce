@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200&display=swap");
+
+.navbar-brand {
+  font-family: "Pacifico", "cursive" !important;
+}
+
+.bannerContainer {
+  margin-top: 40px !important;
+  width: 85% !important;
+}
+
+.imageContainer img {
+  margin-top: 20px !important;
+  width: 70% !important;
+}
+
+.Icon {
+  cursor: pointer !important;
+}
+
+.supportContainer {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.supportText p {
+  font-size: 14px !important;
+}
+
+.supportText h3 {
+  font-size: 18px !important;
+}
+
+.supportImage img {
+  margin-right: 10px !important;
+  width: 44px !important;
+}
+
+@media (min-width: 300px) {
+  .supportItem {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .supportItem {
+    margin-bottom: 20px !important;
+  }
+}
+
+.productHeader::before {
+  content: "";
+  background-color: black !important;
+  width: 100px;
+  height: 2px !important;
+  margin-top: 20px !important;
+  margin-right: 50px !important  ;
+}
+
+.productHeader::after {
+  content: "";
+  background-color: black !important;
+  width: 100px;
+  height: 2px !important;
+  margin-top: 20px !important;
+  margin-left: 50px !important;
+}
+
+.categoryContainer {
+  font-weight: bold !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.categoryContainer p {
+  color: darkcyan !important;
+  cursor: pointer !important;
+}
+
+.categoryContainer p:hover {
+  color: black !important;
+}
+
+@media (min-width: 576px) {
+  .categoryContainer {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 744px) {
+  .categoryContainer {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .categoryContainer {
+    width: 34% !important;
+  }
+}
+
+.categoryContainer p.selected {
+  color: black !important;
+}
+
+.checked {
+  color: gold !important;
+}
+
+.imageContainer img {
+  object-fit: contain !important;
+  height: 200px !important;
+}
+
+@media (max-width: 576px) {
+  .card.h-100 {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  padding-top: 50px !important;
+  padding-bottom: 70px !important;
+}
+
+.footer-brand {
+  font-size: 28px !important;
+  font-family: "Pacifico", "cursive" !important;
+}
+
+footer h5 {
+  font-size: 18px !important;
+}
+
+.cardShopping {
+  width: 800px !important ;
+}
+
+.cartPrice .price {
+  font-size: 18px !important;
+}
+
+.totalContainer {
+  width: 799px !important;
+}
+
+.totalContainer .totalPrice {
+  font-size: 24px !important;
+}
+
+.endShopping {
+  width: 820px !important;
+}
+
+.cartImage {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px !important;
+}
+
+.cartImage img {
+  width: 90% !important;
+  margin-top: 10px !important;
+}
+
+@media (max-width: 770px) {
+  .cardContainer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .cardShopping {
+    width: 80% !important;
+  }
+
+  .card-body-shopping {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .cartImage img {
+    width: 70% !important;
+  }
+
+  .removeButton {
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .removeButton .btn {
+    width: 100% !important;
+  }
+
+  .totalContainer {
+    display: flex !important;
+    justify-content: center !important;
+    width: 80% !important;
+  }
+
+  .totalContainer .totalPrice {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .endShopping {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 80% !important;
+  }
+
+  .endShopping button {
+    width: 50% !important;
+    font-size: 14px !important;
+  }
+}
+
+.cartHeader {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.alertContainer {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@media (min-width: 100px) {
+  .startBtn,
+  .emptyText {
+    width: 80% !important;
+  }
+}
+
+@media (min-width: 536px) {
+  .startBtn,
+  .emptyText {
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .startBtn,
+  .emptyText {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .startBtn,
+  .emptyText {
+    width: 40% !important;
+  }
+}
+
+.startBtn {
+  font-size: 20px !important;
+}
