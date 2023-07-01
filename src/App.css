@@ -10,6 +10,13 @@
   width: 85% !important;
 }
 
+
+@media (max-width: 500px) {
+  .bannerContainer {
+    width: 95% !important;
+  }
+}
+
 .imageContainer img {
   margin-top: 20px !important;
   width: 70% !important;
