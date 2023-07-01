@@ -100,6 +100,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  .categoryContainer .womenCategory {
+    margin-left: 20px !important;
+  }
+}
+
 .categoryContainer p.selected {
   color: black !important;
 }
