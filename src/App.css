@@ -10,13 +10,6 @@
   width: 85% !important;
 }
 
-
-@media (max-width: 500px) {
-  .bannerContainer {
-    width: 95% !important;
-  }
-}
-
 .imageContainer img {
   margin-top: 20px !important;
   width: 70% !important;
@@ -43,6 +36,16 @@
 .supportImage img {
   margin-right: 10px !important;
   width: 44px !important;
+}
+
+.addToCartBtn {
+  transition: background 0.8s !important;
+}
+
+.addToCartBtn:active {
+  background-color: white !important;
+  background-size: 100% !important;
+  transition: background 1s !important;
 }
 
 @media (min-width: 300px) {
