@@ -44,7 +44,7 @@ function Products({ product }) {
         </div>
 
         <div className="container-fluid d-flex justify-content-center mt-auto">
-          <button className="btn btn-warning w-100" onClick={handleAddToCart}>
+          <button className="btn btn-warning w-100 addToCartBtn" onClick={handleAddToCart}>
             Add to cart
           </button>
         </div>
