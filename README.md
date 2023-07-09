@@ -15,6 +15,11 @@
  
  [Fake Store API](https://fakestoreapi.com/)
 
+
+  ## Demo
+
+ Here is demo link: [Live Demo](https://cappo-ecommerce.vercel.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
